@@ -1,3 +1,3 @@
 # gyeongju
 
-Travel-log in August
+Travel-log in August 
