@@ -1,0 +1,154 @@
+<!doctype html>
+<title>Day 1</title>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">    <meta charset="utf-8">
+    <style>
+        :root{
+            --main-color:#fde092;
+            --main-text-color:#2f3335;
+        }
+        html{
+            background-color:var(--main-color);
+        }
+        body{
+            height:300vh;
+        }
+        header{
+            width:100%;
+            background:var(--main-color);
+            top:0px;
+            position:fixed;
+            height:100px;
+        }
+        header a,
+        div a{
+            text-decoration: none;
+            color:var(--main-text-color);
+        }
+        h2{
+            text-align: center;
+            margin-bottom:50px;
+        }
+        .content{
+            font-size:20px;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+                }
+        .main{
+            margin:100px 0px;
+        }
+        .day{
+            background-color:var(--main-color);
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition:all 0.5s ease-cubic-bezier(0.215, 0.610, 0.355, 1.000)-out;
+        }
+        .day:hover{
+            color:var(--main-color);
+            background-color:var(--main-text-color);
+        }
+        .block{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        h4{
+            font-size:15pt;
+            text-align: center;
+            background-color: #0ac75a;
+            width:150px;
+            margin:auto;
+            padding:15px;
+        }
+        img{
+            width:400px;
+            height:500px;
+            margin:15px;
+        }
+        .text{
+            text-align:center;
+            font-size:20px;
+            line-height: 210%;
+            word-break: break-all;
+        }
+        .textbox{
+            margin:auto;
+            background-color: #fff;
+            width:500px;
+            margin-bottom:70px;
+            padding:10px;
+        }
+        .box{
+            border-radius:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <a href="in_aug.html"><h2>Summer Travel In Gyeongju</h2></a>
+        </header>
+        <div class="content">
+            <a class="day1 day" href="day1.html"><span>Day 1</span></a>
+            <a class="day2 day" href="day2.html"><span>Day 2</span></a>
+            <a class="day3 day" href="day3.html"><span>Day 3</span></a>
+        </div>
+    </div>
+
+    <h4 class="box">Daeruengwon</h4>    
+    <div class="first block">
+        <Img src="IMG_5929.jpg">
+        <Img src="IMG_6298.jpg">
+        <Img src="IMG_6061.jpg">
+    </div>
+            <div class="textbox box">
+                <p class="text"> Actually these beautiful hills are tombs of kings. 
+                    We couldn't be able to figure out exactly who it was in some of them. 
+                    But it might be revealved finally, I guess. A lot of effort within in.
+                </p>                
+            </div>
+    
+    <h4 class="box">ilustrated book</h4>
+    <div class="second block">
+        <Img src="IMG_6110.jpg">
+    </div>
+        <div class="textbox box">
+            <p class="text"> I found this place when I was wandering around. I can't remember clearly but maybe I was on the way to go somewhere. 
+            Anyway, it artrated me with a cute panel. 
+            It was better than it looked like. <br> I drop by 2 bookstores in Gyeongju which were the best choice to do. 
+            I bought a book for a birthday present to my friend but I haven't decided yet whether give it to her or myself. 
+            Hww.. I think if she will know I really want to get this she definetely wants me to get this.
+            Problem solved! Yes, time to put it in my bookshleves.
+            </p>
+        </div>
+
+    <h4 class="box">Book shop</h4>
+    <div class="third block">
+        <Img src="IMG_6133.jpg">
+    </div>
+            <div class="textbox box">
+                <p class="text"> The bookstore was kind of small but I think the owner made this place so worthy. 
+                    There're a bunch of books - of course this's a bookshop - which means if you don't arrange them well it would look so nasty. 
+                    <br>It was so impressing that it gave me an courage to do something even in the very harsh situation. 
+                    I could deal with everything if I won't quit pursuing it.
+                    </p>
+            </div>
+
+    <h4 class="box">Cheomsungdae</h4>
+    <div class="fourth block">
+        <Img src="IMG_6197.jpg">
+    </div>
+            <div class="textbox box">
+                <p class="text"> If I should choose the 10 best pictures in travel I would pick it. 
+                    And I named it. A Decalcomanie. <br>
+                    This is for searching the stars in the sky but now nothing we can do with this. 
+                    Just look and take a picture. 
+                    I believe that's why they installed the colorful lights to make it looks different. 
+                    Well... I don't get it.
+                     </p>
+            </div>
+    <footer>
+        &nbsp;
+    </footer>
+</body>
